@@ -1,0 +1,86 @@
+* {
+  margin: 0%;
+}
+
+.main {
+  background-image: url(https://images.pexels.com/photos/1089168/pexels-photo-1089168.jpeg);
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading_1 {
+  font-size: 50px;
+  color: rgb(151, 95, 10);
+  padding-top: 240px;
+}
+
+.heading_2 {
+  font-size: 20px;
+  color: rgb(151, 95, 10);
+  font-weight: normal;
+  padding: 10px;
+}
+
+.btn {
+  color: rgb(151, 95, 10);
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid rgb(151, 95, 10);
+  padding: 10px 30px 10px 30px;
+  background-color: transparent;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(151, 95, 10);
+}
+
+.p1 {
+  background-color: rgb(151, 95, 10);
+  align-content: center;
+  text-align: justify;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.p2 {
+  background-color: white;
+  align-content: center;
+  text-align: justify;
+  color: rgb(151, 95, 10);
+  font-size: 20px;
+  padding: 20px;
+}
+
+.p3 {
+  display: flex;
+  text-align: justify;
+}
+
+.left {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(151, 95, 10);
+  padding: 20px;
+}
+
+.center {
+  color: rgb(151, 95, 10);
+  font-size: 20px;
+  background-color: white;
+  padding: 20px;
+}
+
+.right {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(151, 95, 10);
+  padding: 20px;
+}
